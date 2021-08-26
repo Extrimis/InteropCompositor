@@ -6,6 +6,11 @@ But in Target Framework Moniker Using `Compositor` object to get `ICompositorDes
 >System.PlatformNotSupportedException: 'Marshalling as IInspectable is not supported in the .NET runtime.'
 
 To overcome this issue you can use **InteropCompositor**.
+## Sample
+
+![image](https://firebasestorage.googleapis.com/v0/b/github-repository-ce0cb.appspot.com/o/InteropCompositor%2FCredits%2Fdemo.png?alt=media&token=e65f36ac-12f9-445e-81f7-d5dbc897cf1b)
+
+The Sample project uses Interop compositor to create a desktop window target to draw acrylic effect.
 
 ## Install
 *NuGet Package*
