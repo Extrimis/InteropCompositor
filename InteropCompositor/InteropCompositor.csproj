@@ -5,7 +5,11 @@
     <SignAssembly>False</SignAssembly>
     <Authors>Selastin George</Authors>
     <Company />
-    <Description>InteropCompositor Allows you to use ICompositorDesktopInterop to create DesktopWindowTarget for applications that use .NET 5+ with Target Framework Moniker</Description>
+    <Description>Interop compositor provides support for ICompositorDesktopInterop in Target Framework Moniker .NET 5</Description>
+    <PackageProjectUrl>https://github.com/Extrimis/InteropCompositor</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Extrimis/InteropCompositor</RepositoryUrl>
+    <PackageTags>.Net5,Windows.UI.Composition,windows 10,Acrylic Effect</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -15,5 +19,16 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
+	
+  <PropertyGroup>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
